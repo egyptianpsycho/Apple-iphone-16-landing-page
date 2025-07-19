@@ -1,0 +1,33 @@
+@import "tailwindcss";
+*{
+box-sizing: border-box;
+}
+body {
+  height: 100%;
+  overflow-x: hidden;
+  font-family: '-apple-system',        
+          'BlinkMacSystemFont',   
+          'SF Pro Display',     
+          'Segoe UI',           
+          'Roboto',               
+          'Helvetica Neue',     
+          'Arial',
+          'sans-serif',;
+}
+
+
+.glow-text {
+  color: rgba(0, 0, 0, 0);
+}
+.filter {
+  filter: url("#glow-1");
+  color: white;
+  color: #fffaf6;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
