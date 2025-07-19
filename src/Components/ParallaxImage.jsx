@@ -3,7 +3,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
-const Parallaxx = () => {
+const ParallaxImage = () => {
   const sectionRef = useRef(null);
   const containerRef = useRef(null);
   const textRef = useRef(null);
@@ -112,4 +112,4 @@ const Parallaxx = () => {
   );
 };
 
-export default Parallaxx;
+export default ParallaxImage;

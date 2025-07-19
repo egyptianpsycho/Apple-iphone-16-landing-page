@@ -7,7 +7,7 @@ import Features from "./Components/Features";
 import Camera from "./Components/Camera";
 import ParallaxVideo from "./Components/ParallaxVideo";
 import Audio from "./Components/Audio";
-import Parallaxx from "./Components/Parallaxx";
+import ParallaxImage from "./Components/ParallaxImage";
 
 const App = () => {
   return (
@@ -20,7 +20,7 @@ const App = () => {
         <Camera />
         <ParallaxVideo />
         <Audio />
-        <Parallaxx />
+        <ParallaxImage />
     </div>
   );
 };
